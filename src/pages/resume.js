@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Nav from '../components/Nav'
 
 class Resume extends React.Component {
   render() {
@@ -10,9 +10,12 @@ class Resume extends React.Component {
     return (
       <Layout>
         <Helmet title="Resume" />
-        <Nav />
+        {/* <Nav /> */}
         <div id="main">
           <section id="content" className="main">
+            <ul className="actions">
+              <li><Link to="/#intro" className="button">← Back</Link></li>
+            </ul>
             <h1>Carter Rollins</h1>
             <p>
               (603) 568-7852<br></br>croll2198@gmail.com<br></br>github.com/Rollinc2198

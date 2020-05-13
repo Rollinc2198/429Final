@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Aliquam sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+            <h2>Contact Me</h2>
+            <p>Have a question about anything you saw here? Have an amazing job offer for me that I can't refuse? Feel free to contact me at any of these locations!</p>
         </section>
         <section>
-            <h2>Contact Me</h2>
+            <h2>Information</h2>
             <dl className="alt">
                 <dt>Address</dt>
                 <dd>10 Clarkson Ave &bull; Potsdam, NY 13699 &bull; USA</dd>
@@ -20,7 +20,7 @@ const Footer = (props) => (
                 <li><a href="https://github.com/Rollinc2198" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
             </ul>
         </section>
-        <p className="copyright">&copy; Carter Rollins 2020. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p className="copyright">&copy; Carter Rollins 2020</p>
     </footer>
 )
 

@@ -67,7 +67,7 @@ class Index extends React.Component {
               <li>
                 <span className="image"><img src={library} alt="" /></span>
                 <h3>COSI Library</h3>
-                <p>I helped build a fully functioning library interface for the COSI lab here at Clarkson. You can visit it at <a href="https://library.cosi.clarkson.edu">https://library.cosi.clarkson.edu</a></p>
+                <p>I helped build a fully functioning library web interface for the COSI lab here at Clarkson. You can visit it at <a href="https://library.cosi.clarkson.edu">https://library.cosi.clarkson.edu</a></p>
               </li>
               <li>
               <span className="image"><img src={gw2} alt="" /></span>
@@ -77,7 +77,7 @@ class Index extends React.Component {
               <li>
               <span className="image"><img src={maze} alt="" /></span>
                 <h3>Maze Bot</h3>
-                <p>When I was just a wee freshman, I implemented Dijkstra's algorithm to have a bot solve a maze made by anyone!</p>
+                <p>When I was just a wee freshman, I implemented Dijkstra's algorithm to have a bot solve a maze made by anyone! The code is on my Github.</p>
               </li>
             </ul>
             <footer className="major">
